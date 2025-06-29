@@ -1,0 +1,36 @@
+name: daily_spark
+description: A Flutter app for staying motivated daily.
+
+publish_to: 'none' # Replace with your repository URL if applicable
+
+# Environment SDK constraint
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  # Dependency for image picker (used for Vision Board)
+  image_picker: ^0.8.5+3
+  # Dependency for animations
+  animated_text_kit: ^4.2.1
+  # Dependency for GridView (for Affirmations)
+  flutter_staggered_grid_view: ^0.6.1
+  # Dependency for storing assets like images
+  cached_network_image: ^3.2.1
+  # Dependency for rflutter_alert (Custom popups)
+  rflutter_alert: ^2.0.4
+  # Dependency for shared preferences (for storing user preferences)
+  shared_preferences: ^2.0.15
+  flip_card: ^0.7.0
+# Dev Dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Flutter settings
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
